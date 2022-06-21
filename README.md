@@ -20,4 +20,8 @@ There are four major points from the analysis above:
 ## Summary
 
 From the retiring_titles table, we can see that by adding up all titles there are 72,458 positions that will need to be filled. 
-In order to determine whether there are enough qualified we would need to run a separate query on the mentorship_eligibility table, that would count the number of eligible employees that hold each title. 
+In order to determine whether there are enough qualified we would need to run a separate query on the mentorship_eligibility table, that would count the number of eligible employees that hold each title. This query can been seen in the screenshot below.
+
+![alt text](https://github.com/jeremylam21/Pewlett-Hackard-Analysis/blob/55797141161d71149b310017d616e3f94967ee1f/count%20of%20eligible%20mentors.png)
+
+As we can see there are significantly less mentorship eligible employees compared to those who will be leaving for retirement. 
